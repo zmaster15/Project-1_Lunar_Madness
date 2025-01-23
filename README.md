@@ -1,5 +1,5 @@
 <picture align="center">
-<img title="Lunar Madness" alt="Lunar Madness" src="lunar_madness.png">
+<img title="Lunar Madness" alt="Lunar Madness" src="lunar_madness.png" width="300" height="200">
 </picture>
 
 
