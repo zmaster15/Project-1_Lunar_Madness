@@ -4,17 +4,15 @@
     <img title="Lunar Madness" img src = "lunar_madness.png" alt = "Lunar Madness" width = "300"/>
     </p>
 
-## Executive Summary:  
-The Lunar Madness team investigated correlations between full moon and crime statistics in four diverse US cities. The main objective is to investigate publicly available crime data and known moon phase  data.  If correlations can be established then opportunities to contract and assist, help further investigate local data and staffing history for clients such as municipalities, local government, law enforcement, hospitals, and first responders of established patterns to assist them in planning for staffing needs and preparedness based on future research. 
-- Revised RS ~ How about Below ? --  Expand on this (Sheila/Raymond) - look for similar projects with comparison, open source, add monetary pitch
-The Lunar Madness project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
+## Executive Summary  
+The Lunar Madness project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns. 
 
 ## Table of Contents
 - [Lunar Lunacy Project Overview]
  ~ RS> README file includes a concise project overview 
- ~ RS> Definition (Format with indention) (#lunar-lunacy-effect-defined)
+    - [Lunar Lunacy Effect Defined](#lunar-lunacy-effect-defined)
  ~ RS> Project scope
- ~ RS> [Hypothesis](#hypothesis)
+    - [Hypothesis](#hypothesis)
  ~ RS> GitHub README file includes detailed usage and installation instructions 
       ~ Requirements (Tech stuff - Minimum requirements (Python 3.16 or greater, Jupyer notebooks, Import Dependancies (list: Pandas, plotly, etc.))
 
@@ -22,9 +20,9 @@ Data Preparation and Analysys
     - [Identify Correlation](#identify-correlation)
     - [Statistical Significance](#statistical-significance)
     - [Staffing Needs](#staffing-needs)
-- [Conclusion] (#conclusion)
-    - [Findings] (#findings)
-    - [Lessons Learned] (#lessons learned)
+- [Conclusion](#conclusion)
+    - [Findings](#findings)
+    - [Lessons Learned](#lessons-learned)
     - [Next Steps - Recommendations for the future] (#next steps)  
 - [Appendix] 
     - [Data Sources](#data-sources)
@@ -32,7 +30,9 @@ Data Preparation and Analysys
 
 
 ## Lunar Lunacy Effect Defined
-# RS~ Summerize down to ?:   
+RS~ Summerize down to ?   
+SM~ Not sure what I need to do? I thought it went with our theme but feel free to revise as needed  
+  
 The idea that the full moon influences human behavior, sometimes called the "lunar lunacy effect" or "Transylvania effect," has been around for centuries. The term "lunatic" even originates from the Latin word *luna*, meaning "moon." Throughout history, folklore and myths from around the world have associated the full moon to erratic behavior, ranging from medieval legends of werewolves and vampires to more modern theories suggesting that the moon's gravitational pull might affect the brain's fluids and, in turn, behavior. 
 
 ## Hypothesis
@@ -45,20 +45,17 @@ Erratic behavior is defined as "unpredictable, irregular, or inconsistent behavi
 We will investigate and look for patterns that indicate if people’s criminal behavior are influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
 
 Questions to be answered: Rework
-1. Is there is a strong correlation between the full moon and crime is cities?
-
-3. If these effects exist, drill down and identify more granular relationships in the data
-4. Explore other relationships that may be uncovered during the initial exploratory analysis
-Identify if there is a strong correlation between full moon and traffic accidents
-5. If the disparate city crime data can be categorized with specific crime types,
-
+1. Is there a strong correlation between the full moon and crime in cities?  
+    a. If a correlation is found, drill down and identify more granular relationships in the data
+2. Explore other relationships that may be discovered during the initial exploratory analysis
+3. Identify if there is a strong correlation between the full moon and traffic accidents
 
 ## Statistical Significance:
 - Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Austin, Denver & Los Angels).
-
 - Identify any specific crime types that may be more strongly influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
 
 ## Analysis 
+~ SM I will work on wordsmithing this section later this afternoon
 - (aggregation, correlation, comparison, summary statistics, and *time series analysis*)
 - intake data
 - normalize it
