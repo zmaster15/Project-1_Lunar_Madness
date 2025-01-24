@@ -53,6 +53,29 @@ Identify if there is a strong correlation between full moon and traffic accident
 - analyze data
 - visualize data
 - summarize
+- Zain: To understand what data we have and what can we do with it. 
+Read in the moon data files, pulling out the phases of the moon and the date
+Convert date column to datetime
+Explain Phases, other
+Read in the cleaned crime data, convert date column to datetime (had issues converting to datetime with UTC time, so learned had to use .dt.date to remove first, then )
+![alt text](image.png)
+Merge data sets: Merged on Date using pd.merge right join, filled blank dates with other
+Aggregated total count of offenses that occurred on each date
+![alt text](image-1.png)
+Plot of Los Angeles Crime Data by Day
+Sliced data for 2020-2024
+![alt text](image-2.png)
+
+Outlier crime data: 
+![alt text](image-3.png)
+![alt text](image-4.png)
+![Full Moon Normalized](image-5.png)
+No pattern identified
+![alt text](image-6.png)
+![alt text](image-7.png)
+Traffic ![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
 
 ## Staffing Needs:
 If proven that there is high correlation between crime related offenses with the phases of the moon, this information could then be useful for properly staffing respective public departments (law enforcement, tow trucks, emergency services, Fire Stations, hospitals, and 911 call centers) to support a higher volume of erratic behavior.
@@ -63,6 +86,8 @@ If proven that there is high correlation between crime related offenses with the
 ## Lessons Learned
 GitHub - have .ignore file, 
 Version control
+Look at each phase of the moon to see if there was statistical signoficance
+Communication - did not define roles initially, ended up with multiple 
 
 ## Data Sources:
 ### Full Moon Data Sources:
@@ -93,10 +118,10 @@ Data Points: Date and time of each reported crime incident, Crime type
 - [Maryland Traffic Data](https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q/about_data)
 
 
-### Team Members: (add images)
+## Team Members: (add images)
 Data Engineer: Sheila Mathews  
 Data Analyst: Raymond Stover  
 Data Scientist: Michael Brady  
 Data Scientist: Zain Master  
 
-
+## [Presentation](https://docs.google.com/presentation/d/1stl1fJb9OlSzICY6XXBW35ircUMwCN8yHXWsC-sYAcs/edit?usp=sharing)
