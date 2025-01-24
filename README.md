@@ -4,22 +4,35 @@
     <img title="Lunar Madness" img src = "lunar_madness.png" alt = "Lunar Madness" width = "300"/>
     </p>
 
-## Executive Summary:
-The Lunar Madness team investigated correlations between full moon and crime statistics in four diverse US cities. The main objective is to help inform local government, law enforcement, hospitals, and first responders of established patterns to help them plan their staffing needs and preparedness based on our findings. 
-- Expand on this (Sheila/Raymond) - look for similar projects with comparison, open source, add monetary pitch
+## Executive Summary:  
+The Lunar Madness team investigated correlations between full moon and crime statistics in four diverse US cities. The main objective is to investigate publicly available crime data and known moon phase  data.  If correlations can be established then opportunities to contract and assist, help further investigate local data and staffing history for clients such as municipalities, local government, law enforcement, hospitals, and first responders of established patterns to assist them in planning for staffing needs and preparedness based on future research. 
+- Revised RS ~ How about Below ? --  Expand on this (Sheila/Raymond) - look for similar projects with comparison, open source, add monetary pitch
+The Lunar Madness project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
 
 ## Table of Contents
-- [Lunar Lunacy Effect Defined](#lunar-lunacy-effect-defined)
-- [Hypothesis](#hypothesis)
-- [Identify Correlation](#identify-correlation)
-- [Statistical Significance](#statistical-significance)
-- [Staffing Needs](#staffing-needs)
-- [Findings](#conclusion)
-- [Data Sources](#data-sources)
-- [Team Members](#team-members)
+- [Lunar Lunacy Project Overview]
+ ~ RS> README file includes a concise project overview 
+ ~ RS> Definition (Format with indention) (#lunar-lunacy-effect-defined)
+ ~ RS> Project scope
+ ~ RS> [Hypothesis](#hypothesis)
+ ~ RS> GitHub README file includes detailed usage and installation instructions 
+      ~ Requirements (Tech stuff - Minimum requirements (Python 3.16 or greater, Jupyer notebooks, Import Dependancies (list: Pandas, plotly, etc.))
+
+Data Preparation and Analysys
+    - [Identify Correlation](#identify-correlation)
+    - [Statistical Significance](#statistical-significance)
+    - [Staffing Needs](#staffing-needs)
+- [Conclusion] (#conclusion)
+    - [Findings] (#findings)
+    - [Lessons Learned] (#lessons learned)
+    - [Next Steps - Recommendations for the future] (#next steps)  
+- [Appendix] 
+    - [Data Sources](#data-sources)
+    - [Team Members](#team-members)
 
 
 ## Lunar Lunacy Effect Defined
+# RS~ Summerize down to ?:   
 The idea that the full moon influences human behavior, sometimes called the "lunar lunacy effect" or "Transylvania effect," has been around for centuries. The term "lunatic" even originates from the Latin word *luna*, meaning "moon." Throughout history, folklore and myths from around the world have associated the full moon to erratic behavior, ranging from medieval legends of werewolves and vampires to more modern theories suggesting that the moon's gravitational pull might affect the brain's fluids and, in turn, behavior. 
 
 ## Hypothesis
