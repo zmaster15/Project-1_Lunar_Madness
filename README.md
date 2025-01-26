@@ -1,42 +1,45 @@
+# Lunar Madness
+
 <h1 align = "center" > Lunar Lunacy Effect </h1>
 <h3 align = "center" > Fact or Fiction? </h3>
 <p align = "center" >
-    <img title="Lunar Madness" img src = "lunar_madness.png" alt = "Lunar Madness" width = "300"/>
+    <img title="Lunar Madness" img src = "Resources/lunar_madness.png" alt = "Lunar Madness" width = "300"/>
     </p>
 
 ## Executive Summary  
-The Lunar Madness project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns. 
 
-## Table of Contents
-[Lunar Madness Project Overview](#lunar-madness-project-overview)  
-- [Project Requirements](project-requirements)  
-- [Data Collection](#data-collection)  
-- [Data Analysis](#data-analysis)
-- [Identify Correlation](#identify-correlation)
-- [Statistical Significance](#statistical-significance)
-[Conclusion](#conclusion)
-    - [Lessons Learned](#lessons-learned)
-    - [Next Steps](#next steps)  
-- [Appendix] 
-    - [Data Sources](#data-sources)
-    - [Team Members](#team-members)
+The **Lunar Madness** project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
 
+## Table of Contents  
 
-## Lunar Madness Project Overview
-The Lunar Madness project aims to prove the urban legend that the full moon causes erratic behavior by comparing moon phase data against reported crime and traffic data for multiple major metropolitan cities. 
+- [Project Overview](#project-overview)  
+  - [Project Requirements](project-requirements)  
+  - [Data Collection](#data-collection)  
+  - [Data Analysis](#data-analysis)
+  - [Identify Correlation](#identify-correlation)
+  - [Statistical Significance](#statistical-significance)
+- [Conclusion](#conclusion)
+  - [Lessons Learned](#lessons-learned)
+  - [Next Steps](#next-steps)  
+- [Data Sources](#data-sources) 
+- [Team Mambers](#team-members)
+- [Presentation](#presentation)
 
-If proven that there is high correlation between crime-related offenses with the phases of the moon, this information could then be used to ensure appropriate staffing levels for respective public departments (law enforcement, tow trucks, emergency services, Fire Stations, hospitals, and 911 call centers) to support a higher volume of erratic behavior.
+## Project Overview  
+  
+The Lunar Madness project aims to investigate the urban legend that the full moon causes erratic behavior. By comparing moon phase data against reported crime and traffic data for multiple major metropolitan cities, the project seeks to determine if there is a statistically significant correlation. If a strong correlation is identified, this information could be used to optimize staffing levels for public departments such as law enforcement, emergency services, and hospitals during specific lunar phases.
 
-## Project Requirements   
-[Python 3.16 or greater](https://www.python.org/)   
-[Jupyter Notebook](https://jupyter.org/)  
-GitHub Repository   
-Import Dependancies: Pandas, plotly, datetime
+## Project Requirements
+
+- **Software Requirements:**
+  - [Python 3.16 or greater](https://www.python.org/)   
+  - [Jupyter Notebook](https://jupyter.org/)  
+  - Import Dependancies: Pandas, plotly, datetime
+  - GitHub Repository
+
+- **GitHub Repository Structure:**
 
 ## Data Collection: See [Data Sources](#data-sources)  
-- intake data
-- normalize it
-- merge moon and city crime data
 1. Moon phase data collected from the U.S. Naval Observatory and the National Weather Service.  
     - Initial assessment conducted to understand the data and identify any issues
         - Read in each year from 2013-2024 and convert to a new DataFrame
@@ -48,12 +51,19 @@ Import Dependancies: Pandas, plotly, datetime
     - Denver   
     - Houston  
     - Los Angeles  
-3. Merged moon data with the crime data for each city
+3. Moon data merged with the crime data for each city  
+Houston
+![houston_moon_combined](image-1.png)
 
 ## Data Analysis:
-- Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Austin, Denver & Los Angels).
+- Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Houston, Austin, Denver & Los Angeles).
 - Identify any specific crime types that may be more strongly influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
-- (aggregation, correlation, comparison, summary statistics, and *time series analysis*)
+- Aggregation:  
+![crime_count](Resources\crime_count.png)
+
+
+, correlation, comparison, summary statistics, and *time series analysis*)
+
 
 - analyze data
 - visualize data
@@ -91,7 +101,7 @@ Communication - did not define roles initially, ended up with multiple data file
 ## Next Steps:
 
 
-
+## Appendix
 ## Data Sources:
 ### Full Moon Data Sources:
 - [National Weather Service](https://www.weather.gov/box/sunmoon)
