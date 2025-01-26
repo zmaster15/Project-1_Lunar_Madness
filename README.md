@@ -36,9 +36,15 @@ SM~ Not sure what I need to do? I thought it went with our theme but feel free t
 The idea that the full moon influences human behavior, sometimes called the "lunar lunacy effect" or "Transylvania effect," has been around for centuries. The term "lunatic" even originates from the Latin word *luna*, meaning "moon." Throughout history, folklore and myths from around the world have associated the full moon to erratic behavior, ranging from medieval legends of werewolves and vampires to more modern theories suggesting that the moon's gravitational pull might affect the brain's fluids and, in turn, behavior. 
 
 ## Hypothesis
-The Lunar Madness team sought to test the validity of the lunar lunacy effect by comparing crime and traffic data against full moon dates in 4 major metropolitan cities: Austin, Denver, Houston and Los Angeles. If our hypothesis is true, we should see a higher volume of erratic behavior on days with a full moon. Add details on null hypothesis, etc.
+In research, there are two types of hypotheses: null (H0) and alternative (Ha). They work as a complementary pair, each stating that the other is wrong.
 
-Erratic behavior is defined as "unpredictable, irregular, or inconsistent behavior that deviates from what is considered normal. It wan include mood swings, impulsive actions, and exaggerated emotional responses. 
+Null Hypothesis (H0) – This can be thought of as the implied hypothesis. “Null” meaning “nothing.”  This hypothesis states that there is no difference between groups or no relationship between variables. The null hypothesis is a presumption of status quo or no change. In our case, H0 = The full moon does not influence behavior, full moon or other moon days will approximately display the same level of erratic behavior.
+
+Alternative Hypothesis (Ha) – This hypothesis should state what we expect the data to show, based on our research on the topic. This is also known as the claim and in our case, Ha = Full moon days will have a higher number of erratic behavior incidents in comparision to other moon days.
+
+Erratic behavior is defined as "unpredictable, irregular, or inconsistent behavior that deviates from what is considered normal. It wan include mood swings, impulsive actions, and exaggerated emotional responses. Crime data and traffic violations datasets were used in our case as close analogies to represent erratic behavior. 
+
+The Lunar Madness team sought to test the validity of the lunar lunacy effect by comparing crime data against full moon dates in 4 major metropolitan cities (Austin, Denver, Houston and Los Angeles) and traffic viloation across the entire the state of Maryland. If our hypothesis is true, we should see a higher volume of erratic behavior incidents, crime and traffic viloations, on days with a full moon.
 
 
 ## Identify Correlation:
@@ -90,8 +96,12 @@ Traffic ![alt text](image-8.png)
 ## Staffing Needs:
 If proven that there is high correlation between crime related offenses with the phases of the moon, this information could then be useful for properly staffing respective public departments (law enforcement, tow trucks, emergency services, Fire Stations, hospitals, and 911 call centers) to support a higher volume of erratic behavior.
 
-## Findings: 
+## Findings:
+Outside of Denver, CO crime data that displayed a slight hint of a relation (still not strong enough), the majority of our data results proved our H0 or Null Hypothesis to be proven, ie NO RELATIONSHIP EXISTs between Full Moon and Erratic behavior. 
 
+Every measure of realtionship (Mean, Ratios, Statistical Significance, CI, P-value) was calculated across the dataset and proved that no Full Moon days are just like any other moon days and do NOT influence or cause erratic behavior (increase in crime or traffic violations).
+
+While at the higher level the Null Hypothesis proved, our disappointment was used as fuel to investigate deeper to see if any micro-influeces (eg. Type of Crime) were present. This is where we found it quite interesting to see that Murder Rate in Denver, CO was a little bit higher (2% increase) on Full Moon days vs. Other moon days. 
 
 ## Lessons Learned
 GitHub - have .ignore file, 
