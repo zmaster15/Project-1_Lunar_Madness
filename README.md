@@ -10,6 +10,8 @@
 
 The **Lunar Madness** project analyzes potential correlations between full moons and crime rates in five U.S. cities. The goal is to leverage public crime statistics and known lunar data to identify patterns that could help organizations optimize staffing and resource allocations. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
 
+Unfortunately, the Null hypothesis proved to be true and we were unable to prove our alternate conclusion. 
+
 ## Table of Contents  
 
 - [Project Overview](#project-overview)  
@@ -56,7 +58,7 @@ The Lunar Madness team sought to test the validity of the lunar lunacy effect by
   📦Project-1_Lunar_Madness 
       ┣ 📂Michael (Project Notebooks and CSV working files (Austin, Denver, Chicago, LA & Moon))
       ┣ 📂Raymond (Practice & Investigative Jupyter, Notes and test files )
-      ┣ 📂Shelia  (Cleand Moon Source file Jupyter Project notebooks, & export CSV) 
+      ┣ 📂Sheila  (Cleand Moon Source file Jupyter Project notebooks, & export CSV) 
       ┣ 📂Zain (Jupyter Project notebooks for )
       ┣ 📂Resources (Data Source files and images for project) 
       ┣ 📜.DS_Store
@@ -83,43 +85,47 @@ The Lunar Madness team sought to test the validity of the lunar lunacy effect by
     - Los Angeles  
 3. Moon data merged with the crime data for each city  
 Houston Data Sample:
-![houston_moon_combined](image-1.png)
+![houston_moon_combined](Resources/combined_moon_data.png)
 
 ## Data Analysis
 - GOAL: Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Houston, Austin, Denver, Los Angeles, and Traffic in Baltimore)).
 - Identify any specific crime types that may be more strongly influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
-- Aggregation:  
+
+- Aggregation Code Example:  
 ![crime_count](Resources\crime_count.png)
+- Comparison:  
+![comparison_example](Resources/los_angeles_comparison.png)
+
+- *time series analysis*
+
+
+## Visualizations  
+
+- Plot of Los Angeles Crime Data by Day
+  Sliced data for 2020-2024
+![la_plot](Resources/los_angeles_crime_plot.png)
+
+![Full Moon Normalized](Resources/full_moon_normalized.png)
+
+- Full Moon Traffic Normalized
+![Traffic Normalized](Resources/full_moon_traffic_plot.png)
+
+- Outlier Crime Data
+![outlier_crime_data](Resources/los_angeles_crime_outlier.png)
+![outlier_example](Resources/outlier_query.png)
+
+
+
+## Identify Correlation
+No pattern identified
 
 ```
 Internal NOTES
 - analyze data
 - visualize data
 - summarize
-, correlation, comparison, summary statistics, and *time series analysis*)
+, , , summary statistics, and )
 ```
-
-
-Merge data sets: Merged on Date using pd.merge right join, filled blank dates with other
-Aggregated total count of offenses that occurred on each date
-![alt text](image-1.png)
-Plot of Los Angeles Crime Data by Day
-Sliced data for 2020-2024
-![alt text](image-2.png)
-
-Outlier crime data: 
-![alt text](image-3.png)
-![alt text](image-4.png)
-![Full Moon Normalized](image-5.png)
-No pattern identified
-![alt text](image-6.png)
-![alt text](image-7.png)
-Traffic ![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
-
-## Identify Correlation
-
 
 ## Findings 
 Outside of Denver, CO crime data displayed a hint of a relation (still not strong enough), the majority of our data results proved our H0, or Null, Hypothesis to be proven, i.e. NO RELATIONSHIP EXISTs between Full Moon and Erratic behavior. 
