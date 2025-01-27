@@ -13,12 +13,11 @@ The **Lunar Madness** project analyzes potential correlations between full moons
 ## Table of Contents  
 
 - [Project Overview](#project-overview)  
-  - [Project Requirements](project-requirements)  
+  - [Project Requirements](#project-requirements)  
   - [Data Collection](#data-collection)  
   - [Data Analysis](#data-analysis)
-  - [Identify Correlation](#identify-correlation)
-  - [Statistical Significance](#statistical-significance)
 - [Conclusion](#conclusion)
+  - [Statistical Significance](#statistical-significance)
   - [Lessons Learned](#lessons-learned)
   - [Next Steps](#next-steps)  
 - [Data Sources](#data-sources) 
@@ -27,19 +26,43 @@ The **Lunar Madness** project analyzes potential correlations between full moons
 
 ## Project Overview  
   
-The Lunar Madness project aims to investigate the urban legend that the full moon causes erratic behavior. By comparing moon phase data against reported crime and traffic data for multiple major metropolitan cities, the project seeks to determine if there is a statistically significant correlation. If a strong correlation is identified, this information could be used to optimize staffing levels for public departments such as law enforcement, emergency services, and hospitals during specific lunar phases.
+The Lunar Madness project Team is investigating the urban legend that correlates erratic behavior when the moon is in its Full phase. By comparing moon phase data against reported crime and traffic data for multiple major metropolitan cities, the project seeks to determine if there is a statistically significant correlation. If a strong correlation is identified, this preliminay proof of concept could be used as a basis for future investigation.  Businesses and municipalities could benefit from the investigative work of the Lunar Madness Team to help inform optimized staffing levels, fleet preparations, and advising on supply inventories for public departments such as law enforcement, emergency services, and hospitals during specific lunar phases.
+
+
 
 ## Project Requirements
 
 - **Software Requirements:**
   - [Python 3.16 or greater](https://www.python.org/)   
-  - [Jupyter Notebook](https://jupyter.org/)  
-  - Import Dependancies: Pandas, plotly, datetime
-  - GitHub Repository
-
+  - [Jupyter Notebook](https://jupyter.org/)
+  - GitHub account   
+  - Load Dependancies: 
+    ```
+    import pandas as pd
+    from prophet import Prophet
+    import datetime as dt
+    import numpy as np
+    import matplotlib.pyplot as plt
+    %matplotlib inline 
+    ```
 - **GitHub Repository Structure:**
-
-## Data Collection: See [Data Sources](#data-sources)  
+``` Markdown for Clean display of GitHub Repository Structure
+  📦Project-1_Lunar_Madness 
+      ┣ 📂Michael (Project Notebooks and CSV working files (Austin, Denver, Chicago, LA & Moon))
+      ┣ 📂Raymond (Practice & Investigative Jupyter, Notes and test files )
+      ┣ 📂Shelia  (Cleand Moon Source file Jupyter Project notebooks, & export CSV) 
+      ┣ 📂Zain (Jupyter Project notebooks for )
+      ┣ 📂Resources (Data Source files and images for project) 
+      ┣ 📜.DS_Store
+      ┣ 📜.gitattributes
+      ┣ 📜.gitignore
+      ┣ 📜 Howlers_(Lunar Madness)_Project_Sheet.xlsx
+      ┣ 📜LICENSE 
+      ┣ 📜README.md 
+      ┗ 📜lunar_madness.png
+```
+## Data Collection 
+- (Also See [Data Sources](#data-sources))  
 1. Moon phase data collected from the U.S. Naval Observatory and the National Weather Service.  
     - Initial assessment conducted to understand the data and identify any issues
         - Read in each year from 2013-2024 and convert to a new DataFrame
@@ -91,12 +114,10 @@ Traffic ![alt text](image-8.png)
 
 
 ## Lessons Learned:
-had issues converting to datetime with UTC time, so learned how to use .dt.date to remove first, then )
-![alt text](image.png)
-GitHub - have .ignore file, 
-Version control
-Look at each phase of the moon to see if there was statistical signoficance
-Communication - did not define roles initially, ended up with multiple data files causing confusion in Analysis
+Obtaining Data that is accurate and reliable early on is important.  Processing data files take time and diligence to normalize as there may be time zone, UTC and formatting issues.  Communication and role assignments could have been managed better in hindsight and had we communicated roles and responsibilities with expected deliverables we would have had more focused work from the start using agreed upon standard files.  Version control and using github can be a challenge.  The .DSstore file from the Apple IOS proved to be problematic and 'dot ignore' file is mandatory at this level of programming.  Wometimes the most recent data is not comprobable and needs to be truncated.  Data can have irregularities and data needs to be normalized.  Different types of plotting reveal differt patterns within the data.
+
+
+
 
 ## Next Steps:
 
