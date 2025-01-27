@@ -16,7 +16,8 @@ The **Lunar Madness** project analyzes potential correlations between full moons
   - [Project Requirements](#project-requirements)  
   - [Data Collection](#data-collection)  
   - [Data Analysis](#data-analysis)
-- [Conclusion](#conclusion)
+  - [Identify Correlation](#identify-correlation)
+- [Findings](#conclusion)
   - [Statistical Significance](#statistical-significance)
   - [Lessons Learned](#lessons-learned)
   - [Next Steps](#next-steps)  
@@ -28,7 +29,12 @@ The **Lunar Madness** project analyzes potential correlations between full moons
   
 The Lunar Madness project Team is investigating the urban legend that correlates erratic behavior when the moon is in its Full phase. By comparing moon phase data against reported crime and traffic data for multiple major metropolitan cities, the project seeks to determine if there is a statistically significant correlation. If a strong correlation is identified, this preliminay proof of concept could be used as a basis for future investigation.  Businesses and municipalities could benefit from the investigative work of the Lunar Madness Team to help inform optimized staffing levels, fleet preparations, and advising on supply inventories for public departments such as law enforcement, emergency services, and hospitals during specific lunar phases.
 
-
+## Hypothysis
+In research, there are two types of hypotheses: null (H0) and alternative (Ha). They work as a complementary pair, each stating that the other is wrong.
+Null Hypothesis (H0) – This can be thought of as the implied hypothesis. “Null” meaning “nothing.”  This hypothesis states that there is no difference between groups or no relationship between variables. The null hypothesis is a presumption of status quo or no change. In our case, H0 = The full moon does not influence behavior, full moon or other moon days will approximately display the same level of erratic behavior.
+Alternative Hypothesis (Ha) – This hypothesis should state what we expect the data to show, based on our research on the topic. This is also known as the claim and in our case, Ha = Full moon days will have a higher number of erratic behavior incidents in comparision to other moon days.
+Erratic behavior is defined as "unpredictable, irregular, or inconsistent behavior that deviates from what is considered normal. It wan include mood swings, impulsive actions, and exaggerated emotional responses. Crime data and traffic violations datasets were used in our case as close analogies to represent erratic behavior. 
+The Lunar Madness team sought to test the validity of the lunar lunacy effect by comparing crime data against full moon dates in 4 major metropolitan cities (Austin, Denver, Houston and Los Angeles) and traffic viloation across the entire the state of Maryland. If our hypothesis is true, we should see a higher volume of erratic behavior incidents, crime and traffic viloations, on days with a full moon.
 
 ## Project Requirements
 
@@ -68,29 +74,31 @@ The Lunar Madness project Team is investigating the urban legend that correlates
         - Read in each year from 2013-2024 and convert to a new DataFrame
         - Combined into Moon Phase DataFrame to be used for analysis 
         ![moon_data_export](Resources\combined_moon_data.png)
-2. Crime data cleaned and normalized for the following cities:  
-    - Austin  
+2. Crime / Incident data cleaned and normalized for the following cities:  
+    - Austin
+    - Baltimore (Traffic)  
     - Chicago  
     - Denver   
     - Houston  
     - Los Angeles  
 3. Moon data merged with the crime data for each city  
-Houston
+Houston Data Sample:
 ![houston_moon_combined](image-1.png)
 
-## Data Analysis:
-- Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Houston, Austin, Denver & Los Angeles).
+## Data Analysis
+- GOAL: Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Houston, Austin, Denver, Los Angeles, and Traffic in Baltimore)).
 - Identify any specific crime types that may be more strongly influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
 - Aggregation:  
 ![crime_count](Resources\crime_count.png)
 
-
-, correlation, comparison, summary statistics, and *time series analysis*)
-
-
+```
+Internal NOTES
 - analyze data
 - visualize data
 - summarize
+, correlation, comparison, summary statistics, and *time series analysis*)
+```
+
 
 Merge data sets: Merged on Date using pd.merge right join, filled blank dates with other
 Aggregated total count of offenses that occurred on each date
@@ -110,17 +118,21 @@ Traffic ![alt text](image-8.png)
 ![alt text](image-9.png)
 ![alt text](image-10.png)
 
-## Conclusion:
+## Identify Correlation
 
 
-## Lessons Learned:
-Obtaining Data that is accurate and reliable early on is important.  Processing data files take time and diligence to normalize as there may be time zone, UTC and formatting issues.  Communication and role assignments could have been managed better in hindsight and had we communicated roles and responsibilities with expected deliverables we would have had more focused work from the start using agreed upon standard files.  Version control and using github can be a challenge.  The .DSstore file from the Apple IOS proved to be problematic and 'dot ignore' file is mandatory at this level of programming.  Wometimes the most recent data is not comprobable and needs to be truncated.  Data can have irregularities and data needs to be normalized.  Different types of plotting reveal differt patterns within the data.
+## Findings 
+Outside of Denver, CO crime data displayed a hint of a relation (still not strong enough), the majority of our data results proved our H0, or Null, Hypothesis to be proven, i.e. NO RELATIONSHIP EXISTs between Full Moon and Erratic behavior. 
+Multiple realtionship measurements were applied (Mean, Ratios, Statistical Significance, CI, P-value) across the dataset and each confirmed Full Moon days are just like any other moon days and do NOT dramatically influence or cause erratic behavior.  In this investigation, there was no significant correlation between in crime or automobile traffic incidents.
 
+While at the higher level the Null Hypothesis proved, our disappointment was used as fuel to investigate deeper to see if any micro-influeces (eg. Type of Crime) were present. This is where we found it quite interesting to see that Murder Rate in Denver, CO was a little bit higher (2% increase) on Full Moon days vs. Other moon days.  Another interesting trend was a marked increase in Tresspassing violations during Full moon phases. 
 
+## Lessons Learned
+Obtaining Data that is accurate and reliable early on is important.  Authoratative public data can hold interesting patterns.  Data can have irregularities and data needs to be normalized.  Different types of statistical analyses, graphing and plotting reveal interesting patterns within the data.  Processing data files takes time and diligence to normalize as there are time zone, UTC and formatting issues to overcome.  Communicatiing roles and responsibilities with expected deliverable dates will help on future projects to best utilize resources.  Version control and using github can be a challenge; the .DSstore file from the Apple IOS proved to be problematic and 'dot ignore' file is mandatory at this level of programming.  
 
 
 ## Next Steps:
-
+If a organization, public or private, are willing to sponsor and provide authoratative raw data on local crime, traffic, 911, Emergency rooms and other first responder data, the Lunar Madness Team ("LM") could be contracted to combine the data and further refine this proof of concept template.  The LM framework includes moon phase data, and has several models to plug in local and regional data to uncover statistical correlations.  The Lunar Madness team will scour the data for high correlation events such as crime with other local events or phenomena, research is not limited to just moon phase data.  Set our team to the task of investigating revenue patterns, custom projects, or explore for unidentified trends.  Correlated information that leads to efficient management and can be predicted can make the difference between success vs. surviving.  Let us know the problem you wish to solve and we will do the analysys and presentation for you and your organization.
 
 ## Appendix
 ## Data Sources:
