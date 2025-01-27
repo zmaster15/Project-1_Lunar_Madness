@@ -95,20 +95,18 @@ Houston Data Sample:
 - GOAL: Determine if there is a statistically significant correlation between moon phases and crime rates in sampled metropolitan areas (Chicago, Houston, Austin, Denver, Los Angeles, and Traffic in Baltimore)).
 - Identify any specific crime types that may be more strongly influenced by the lunar cycle. Explore potential explanations for any observed correlations (e.g., increased visibility during full moon).
 
-- Aggregation Code Example:  
+- Aggregation Example:  
 ![crime_count](Resources\crime_count.png)
 - Comparison:  
 ![comparison_example](Resources/los_angeles_comparison.png)
 
-- *time series analysis*
-
-
 ## Visualizations  
 
-- Plot of Los Angeles Crime Data by Day
+- Plot of Los Angeles Crime Data by Day,
   Sliced data for 2020-2024
 ![la_plot](Resources/los_angeles_crime_plot.png)
 
+- Full Moon Normalized
 ![Full Moon Normalized](Resources/full_moon_normalized.png)
 
 - Full Moon Traffic Normalized
@@ -123,13 +121,6 @@ Houston Data Sample:
 ## Identify Correlation
 No pattern identified
 
-```
-Internal NOTES
-- analyze data
-- visualize data
-- summarize
-, , , summary statistics, and )
-```
 
 ## Findings 
 Outside of Denver, CO crime data displayed a hint of a relation (still not strong enough), the majority of our data results proved our H0, or Null, Hypothesis to be proven, i.e. NO RELATIONSHIP EXISTs between Full Moon and Erratic behavior. 
@@ -174,7 +165,7 @@ Data Points: Date and time of each reported crime incident, Crime type
 - [Maryland Traffic Data](https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q/about_data)
 
 
-## Team Members: (add images)
+## Team Members:  
 Data Engineer: Sheila Mathews  
 Data Analyst: Raymond Stover  
 Data Scientist: Michael Brady  
