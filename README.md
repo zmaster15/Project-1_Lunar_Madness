@@ -8,7 +8,7 @@
 
 ## Executive Summary  
 
-The **Lunar Madness** project analyzes potential correlations between full moons and crime rates in four U.S. cities. Its goal is to leverage public crime statistics and lunar phase data to identify patterns that could help organizations optimize staffing and resource allocation. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
+The **Lunar Madness** project analyzes potential correlations between full moons and crime rates in five U.S. cities. The goal is to leverage public crime statistics and known lunar data to identify patterns that could help organizations optimize staffing and resource allocations. Target clients include local governments, law enforcement agencies, hospitals, and first responders who could benefit from predictive scheduling based on lunar-correlated incident patterns.
 
 ## Table of Contents  
 
@@ -56,7 +56,7 @@ The Lunar Madness project Team is investigating the urban legend that correlates
       ┣ 📜.DS_Store
       ┣ 📜.gitattributes
       ┣ 📜.gitignore
-      ┣ 📜 Howlers_(Lunar Madness)_Project_Sheet.xlsx
+      ┣ 📜Howlers_(Lunar Madness)_Project_Sheet.xlsx
       ┣ 📜LICENSE 
       ┣ 📜README.md 
       ┗ 📜lunar_madness.png
