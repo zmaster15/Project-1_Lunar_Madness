@@ -149,11 +149,11 @@ Using the following average Colorado salary scales for team member roles, we wer
 
 Total Internal Cost for Conducting Analysis (2 weeks) = $16,655.38 
 
-Having proven that there isn't a relationship that exists between Full Moons and Erratic Beahvior *(Crime/Traffic Violations)*, we hope to reach out to Emergency Dispatch Call Centers within each state that may be prone to overstaffing their call centers with additional resources to handle a percieved increase in erratic behavior, specially surrounding full moon days *(3 days: 1 day prior, day of full moon, 1 day after)*. 
+Having proven that there isn't a relationship that exists between Full Moons and Erratic Beahvior *(Crime/Traffic Violations)*, we hope to reach out to the 6000 911 call centers, also known as Public Safety Answering Points [PSAs](https://health.wusf.usf.edu/health-news-florida/2024-07-18/the-nations-911-system-is-on-the-brink-of-its-own-emergency) that may be prone to overstaffing their call centers with additional resources to handle a percieved increase in erratic behavior, especially surrounding full moon days *(3 days: 1 day prior, day of full moon, 1 day after)*. 
 
 For example, the average call center dispatcher salary in the USA is around $18/hour *(varies greatly by location)*. 
 - We'd save the call center and tax payers around ~$486/person *(3 days: 1 day prior, day of full moon, 1 day after)* they plan to overstaff to handle the alledge additional call volume. 
-- There are roughly **6000** 911 call centers, also known as Public Safety Answering Points [PSAs](https://health.wusf.usf.edu/health-news-florida/2024-07-18/the-nations-911-system-is-on-the-brink-of-its-own-emergency) in the US.
+- There are roughly **6000** [911 call Centers](https://health.wusf.usf.edu/health-news-florida/2024-07-18/the-nations-911-system-is-on-the-brink-of-its-own-emergency) in the US.
 - 36 Alleged Full Moon days (12 actual Full Moons in a year, but the day prior and day after while not as bright are percieved by many as still being a full moon)
 - Savings of even 1 staff member across 36 Full Moon Days in a Year across 6000 PSAs could save the tax payers =  *$34,992,000*     *(12 x $486 x 6000 locations)*
   
