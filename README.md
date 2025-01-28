@@ -141,6 +141,22 @@ While at the higher level the Null Hypothesis proved, our disappointment was use
 ## Lessons Learned
 Obtaining Data that is accurate and reliable early on is important.  Authoratative public data can hold interesting patterns.  Data can have irregularities and data needs to be normalized.  Different types of statistical analyses, graphing and plotting reveal interesting patterns within the data.  Processing data files takes time and diligence to normalize as there are time zone, UTC and formatting issues to overcome.  Communicatiing roles and responsibilities with expected deliverable dates will help on future projects to best utilize resources.  Version control and using github can be a challenge; the .DSstore file from the Apple IOS proved to be problematic and 'dot ignore' file is mandatory at this level of programming.  
 
+**Cost Of Project**
+Using the following average Colorado salary scales for team member roles, we were able to calculate the cost of conducting this project. 
+- Data Scientist (1): $104,771 | *(per week cost = $2014.82)*
+- Data Engineer (2): $117,223 | *(per week cost = $2254.29)*
+- Project Manager (1): $93,823 | *(per week cost = $1804.29)* 
+
+Total Internal Cost for Conducting Analysis (2 weeks) = $16,655.38 
+
+Having proven that there isn't a relationship that exists between Full Moons and Erratic Beahvior *(Crime/Traffic Violations)*, we hope to reach out to Emergency Dispatch Call Centers within each state that may be prone to overstaffing their call centers with additional resources to handle a percieved increase in erratic behavior, specially surrounding full moon days *(3 days: 1 day prior, day of full moon, 1 day after)*. 
+
+For example, the average call center dispatcher salary in the USA is around $18/hour *(varies greatly by location)*. 
+- We'd save the call center and tax payers around ~$486/person *(3 days: 1 day prior, day of full moon, 1 day after)* they plan to overstaff to handle the alledge additional call volume. 
+- There are roughly **6000** 911 call centers, also known as Public Safety Answering Points [PSAs](https://health.wusf.usf.edu/health-news-florida/2024-07-18/the-nations-911-system-is-on-the-brink-of-its-own-emergency) in the US.
+- 36 Alleged Full Moon days (12 actual Full Moons in a year, but the day prior and day after while not as bright are percieved by many as still being a full moon)
+- Savings of even 1 staff member across 36 Full Moon Days in a Year across 6000 PSAs could save the tax payers =  *$34,992,000*     *(12 x $486 x 6000 locations)*
+  
 
 ## Next Steps:
 If a organization, public or private, are willing to sponsor and provide authoratative raw data on local crime, traffic, 911, Emergency rooms and other first responder data, the Lunar Madness Team ("LM") could be contracted to combine the data and further refine this proof of concept template.  The LM framework includes moon phase data, and has several models to plug in local and regional data to uncover statistical correlations.  The Lunar Madness team will scour the data for high correlation events such as crime with other local events or phenomena, research is not limited to just moon phase data.  Set our team to the task of investigating revenue patterns, custom projects, or explore for unidentified trends.  Correlated information that leads to efficient management and can be predicted can make the difference between success vs. surviving.  Let us know the problem you wish to solve and we will do the analysys and presentation for you and your organization.
@@ -160,20 +176,20 @@ Data Points:  Daily moon phase information (e.g., new moon, full moon, first qua
 Data Points: Date and time of each reported crime incident, Crime type  
 
 - [Los Angeles Crime Data](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)  
-Data Points: Date and time of each reported crime incident, Crime type  
+Data Points: Date and time of each reported crime incident, Crime type | 1004683 rows of data
 
 - [Houston Crime Data](https://www.kaggle.com/datasets/iamkevin/raw-aggregate-houston-crime-report-data)  
-Data Points: Date and time of each reported crime incident, Crime type  
+Data Points: Date and time of each reported crime incident, Crime type | 1185476 rows of data 
 
 - [Denver Crime Data](https://www.kaggle.com/code/paulo098/denver-crime-data-analysis-and-prediction)  
-Data Points: Date and time of each reported crime incident, Crime type  
+Data Points: Date and time of each reported crime incident, Crime type | 386867 rows of data 
 
 - [Austin Crime Data](https://catalog.data.gov/dataset/crime-reports-bf2b7)  
-Data Points: Date and time of each reported crime incident, Crime type  
+Data Points: Date and time of each reported crime incident, Crime type | 2522587 rows of data
 
 ### Traffic Data Source
 - [Maryland Traffic Data](https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q/about_data)
-
+Data Points: Date and time of each reported traffic violation, Violation type | 1048608 rows of data
 
 ## Team Members:  
 Data Engineer: Sheila Mathews  
