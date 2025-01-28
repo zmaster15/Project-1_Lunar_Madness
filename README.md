@@ -73,6 +73,14 @@ The Lunar Madness team sought to test the validity of the lunar lunacy effect by
       ┣ 📜README.md 
       ┗ 📜lunar_madness.png
 ```
+- **For Project Files, see:**
+    /Zain/lunar_Auto.ipynb
+    /Zain/lunar_Crimes.ipynb  
+    /Michael/Denver.ipynb
+    /Michael/Alt_LA.ipynb
+    /Sheila/Houston_Lunar_Data_Sheila.ipynb
+    /Sheila/Moon_Data.ipynb
+  
 ## Data Collection 
 - (Also See [Data Sources](#data-sources))  
 1. Moon phase data collected from the U.S. Naval Observatory and the National Weather Service.  
